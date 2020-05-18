@@ -31,7 +31,6 @@ img {
 }
 
 body {
-    max-width: 1400px;
     margin: 0 auto;
 }
 
@@ -220,12 +219,15 @@ src: local('Montserrat Bold'), local('Montserrat-Bold'),
 }
 
 .servisec__list__item__title {
+    font-family: var(--main-font);
+    font-size: 18px;
+    font-weight: 700;
     margin-top: 25px;
     margin-bottom: 15px;
 }
 
 .servisec__list__item__description {
-    font-family: 'Roboto Slab' sans-serif;
+    font-family: 'Roboto Slab', sans-serif;
     font-size: 14px;
     color: rgb(119, 119, 119);
 }
@@ -284,12 +286,12 @@ src: local('Montserrat Bold'), local('Montserrat-Bold'),
     font-size: 14px;
     line-height: 1.2;
     font-weight: 700;
-    color: rgb(187, 187, 187);
 }
 
 .contact__form__input::placeholder,
 .contact__form__message::placeholder {
-    text-transform: uppercase;   
+    text-transform: uppercase;
+    color: rgb(187, 187, 187);
 }
 
 .contact__form__input:last-child {
